@@ -12,5 +12,5 @@ const ImgComponent = () => {
 //   render() {
 //     return <img src={anoying} alt="이미지" />;
 //   }
-// }
+// }ㄴㄴㄴㄴㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇ
 export default ImgComponent;
