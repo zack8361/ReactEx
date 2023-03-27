@@ -9,13 +9,21 @@ import BtnToNaver from "./components/BtnToNaver";
 // 함수형 컴포넌트
 import FunctionComponent from "./components/FunctionComponent";
 
+import FunctionalState from "./components/FunctionalState";
+import SecondExercise from "./components/SecondExercise";
+import State from "./components/State";
+import FirstExercise from "./components/FirstExercise";
+import EventHandler from "./components/EventHandler";
+import Inline from "./components/Inline";
 function App() {
   return (
     <div className="App">
-      <MainHeader></MainHeader>
-      <ImgComponent></ImgComponent>
-      <BtnToNaver></BtnToNaver>
-      <FunctionComponent />
+      <Inline></Inline>
+      <EventHandler />
+      <FirstExercise />
+      <State />
+      <SecondExercise />
+      <FunctionalState />
     </div>
   );
 }
