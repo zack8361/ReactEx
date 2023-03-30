@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function AcustomObj(props) {
   const { name, age, nickName } = props.obj;
   return (
